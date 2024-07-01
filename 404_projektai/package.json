@@ -1,0 +1,19 @@
+{
+  "name": "404_projektai",
+  "version": "1.0.0",
+  "description": "404 diziano projektas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "pirmas",
+    "projektas",
+    "404",
+    "labirintas"
+  ],
+  "author": "zydrunas",
+  "license": "ISC"
+}
