@@ -15,5 +15,8 @@
     "labirintas"
   ],
   "author": "zydrunas",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
 }
