@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 - Labirintas</title>
 </head>
-<body style="background-color: olivedrab;">
-    <main style="background-color: white; width: 50%; margin-top: 150px; margin-left: 25%;">
-        <div style="background-color: grey;">
+<body style="background-color: green;">
+    <main style="display: inline-block; background-color: white; width: 50%; margin-top: 150px; margin-left: 25%;">
+        <div style="display: inline-block; width: 100%; background-color: pink; margin-top: 0;">
             <div>X</div>
         </div>
-        <div style="background-color: burlywood;">
-            <img src="#" alt="labirinto zaidimas">
-            <div>
+        <div style="display: inline-block; width: 100%; background-color: yellow;">
+            <img style="width: 40%; float:left; background-color: red;" src="./maze-only.jpg" alt="labirinto zaidimas">
+            <div style="width: 60%; float:left; background-color: blueviolet;">
                 <h1>404</h1>
                 <p>Looks like you are in a maze.</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit voluptates culpa blanditiis.</p>
@@ -66,6 +66,10 @@ border-radius: 0;       kampu uzapvalinimas
 
 display: none;              elementas visiskai nematomas
 display: block;             vertikalus deliojimas
-display: inline;            elgiasi kaip tekstas
+display: inline;            elgiasi kaip tekstas nereguoja i widht/height
 display: inline-block;      mix
+
+float: left;                priverstinis elemento stumimas pasirinkta kryptimi iki artimiausio kito elemento
+float: right;
+
 -->
