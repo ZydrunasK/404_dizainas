@@ -4,7 +4,7 @@
   "description": "404 diziano projektas",
   "main": "index.js",
   "scripts": {
-    "dev": "dead-server --host=localhost --port=5104 --browser=msedge",
+    "dev": "dead-server --host=localhost --port=5104 --browser=chrome",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
