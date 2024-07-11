@@ -1,0 +1,88 @@
+body {
+    background-image: url(./mazerunner.jpg);
+}
+
+/**/
+main {
+    display: inline-block;
+    background-color:
+    white; 
+    width: 50%; 
+    height: 700px; 
+    margin-top: 7%; 
+    margin-left: 24%; 
+    box-shadow: 10px 10px 30px -10px black;
+}
+
+/*fisrt div*/
+main > div:first-child {
+   color: grey;
+   font-family: arial; 
+   float: right; 
+   margin-top: 30px; 
+   margin-right: 30px; 
+   margin-bottom: -20px;
+
+}
+
+/*second div*/
+div + div {
+    display: inline-block; 
+    width: 100%; 
+    font-family: arial
+
+}
+
+/*first div in the second div*/
+img + div {
+    width: 40%; 
+    margin-left: 5%; 
+    float:left;
+}
+
+/**/
+img {
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 5%; 
+    float:left;
+
+}
+
+/**/
+h1 {
+    font-size: 200px; 
+    color: darkgreen; 
+    margin-top: 150px; 
+    margin-bottom: 0; 
+    line-height: 0.7em;
+
+}
+
+ /**/
+p:first-of-type {
+    color:green; 
+    font-size: 25px; 
+    margin-top: 2em;
+
+}
+
+/**/
+p:last-of-type {
+    color: grey;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/**/
+a {
+    display: inline-block; 
+    background: green; 
+    padding: 15px;
+    color: white; 
+    text-decoration: none; 
+    font-size: 20px; 
+    box-shadow: 0px 5px 15px 2px palegreen;
+
+}
