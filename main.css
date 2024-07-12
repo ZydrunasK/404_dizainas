@@ -7,10 +7,10 @@ main {
     display: inline-block;
     background-color:
     white; 
-    width: 50%; 
+    width: 950px; 
     height: 700px; 
-    margin-top: 7%; 
-    margin-left: 24%; 
+    margin-top: 135px; 
+    margin-left: calc(50% - 475px); 
     box-shadow: 10px 10px 30px -10px black;
 }
 
